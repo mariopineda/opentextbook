@@ -9,3 +9,4 @@ The goals of this project:
 - Dynamically generated textbooks/workbooks suitable for printing and distributing
 - Aligned with the Alberta high school math Program of Study
 - Infused with socially important real-world topics, e.g. climate change, environment, etc. 
+- Semanic hyperlinks throughout each text book
