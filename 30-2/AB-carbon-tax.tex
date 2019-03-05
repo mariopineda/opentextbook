@@ -7,7 +7,7 @@
 \documentclass[11pt]{article} % use larger type; default would be 10pt
 
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
-\usepackage{exercise}
+\usepackage{exercise, hyperref, wasysym}
 
 %%% PAGE DIMENSIONS
 \usepackage{geometry} % to change the page dimensions
@@ -47,14 +47,42 @@
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 
 \begin{document}
-\maketitle
 
-\begin{Exercise}
-Alberta's consumer crabon tax kicked in January 1, 2017. pricing carbon emissions at \$20 per tonne. That rose on January 1, 2018, to \$30 per tonne. In 2007, Alberta began collecting funds from  industrial emitters who released more than 100000 tonnes of greenhouse gases in a year. thoes fees go to the Climate Change and Emissions Management Fund (CCEMF). Here is how much revenue those two taxes have generated in the last two fiscal years, along with the forecast for 2018-19.
+\begin{table}[ht]
+\begin{tabular}{lll}
+\hline
+Learning Outcome(s): \\
+Difficulty: & {\huge \Square \CheckedBox \XBox}  I can not do this yet, I can do some of this, I can do this: \\
+\hline
+\end{tabular}
+\end{table}
 
-\Question Determine the linear regression function that models the total carbon tax revenue as a function of year, rounding parameters to the nearest hundreth. Sketch the graph, labelling axes with descriptions and units.
+Alberta's consumer carbon tax kicked in January 1, 2017. pricing carbon emissions at \$20 per tonne. That rose on January 1, 2018, to \$30 per tonne. In 2007, Alberta began collecting funds from  industrial emitters who released more than 100000 tonnes of greenhouse gases in a year. thoes fees go to the Climate Change and Emissions Management Fund (CCEMF). Here is how much revenue those two taxes have generated in the last two fiscal years, along with the forecast for 2018-19. (Source: Edmonton Journal, March 5, 2019)
 
-\Question  Using the regression function, estimate the total carbon tax revenue, to the nearest dollar, for year 2020.
-\end{Exercise}
+\begin{tabular}{ll} 
+\hline
+\textbf{2016-17} \\
+Carbon tax revenue: & \$250 million  \\ 
+CCEMF revenue: & \$163 million \\ 
+Total: & \$413 million \\ \\
+
+\textbf{2017-18} \\
+Carbon tax revenue: & \$1.05 billion  \\ 
+CCEMF revenue: & \$251 million \\ 
+Total: & \$1.23 billion \\ \\
+
+\textbf{2018-19} \\
+Carbon tax revenue: & \$1.3 billion  \\ 
+CCEMF revenue: & \$485 million \\ 
+Total: & \$1.785 billion \\
+
+\hline
+\end{tabular}
+
+\begin{enumerate}
+\item[a.] Determine the linear regression function that models the total carbon tax revenue as a function of year, rounding parameters to the nearest hundreth. Sketch the graph, labelling axes with descriptions and units.
+
+\item[b.]  Using the regression function, estimate the total carbon tax revenue, to the nearest dollar, for year 2020.
+\end{enumerate}
 
 \end{document}
